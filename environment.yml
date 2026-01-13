@@ -1,0 +1,20 @@
+name: ml_base
+channels:
+  - conda-forge  # обязательно первый!
+  - defaults
+dependencies:
+  - python=3.11
+  - pandas
+  - numpy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - jupyterlab
+  - scipy
+  - statsmodels
+  - lightgbm
+  - py-xgboost
+  - catboost
+  - tensorflow
+  - imbalanced-learn
+  - pip
