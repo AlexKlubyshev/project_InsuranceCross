@@ -29,17 +29,17 @@ Python, Pandas, NumPy, Scikit-learn, LightGBM, XGBoost, CatBoost, Matplotlib, Se
 
 ## Установка и запуск
 ### 1. Клонирование репозитория
-git clone https://github.com/ksanprog@mail.ru/health-insurance-cross-sell.git
-cd health-insurance-cross-sell
+git clone https://github.com/AlexKlubyshev/project_InsuranceCross.git
+cd project_InsuranceCross
 
-###2. Создание окружения используя conda(рекомендуемый способ) 
+### 2. Создание окружения используя conda(рекомендуемый способ) 
 conda env create -f environment.yml
 conda activate ml_base
 
-###3. Альтернативная установка (через pip): 
+### 3. Альтернативная установка (через pip): 
    pip install -r requirements.txt
 
-###4. Запуск проекта
+### 4. Запуск проекта
 jupyter notebook notebooks/insurance_cross_sell_prediction.ipynb
 
 ## Зависимости
@@ -48,7 +48,7 @@ jupyter notebook notebooks/insurance_cross_sell_prediction.ipynb
 - environment.yml — для установки через conda
 - requirements.txt — для установки через pip
 
-##Основные библиотеки:
+## Основные библиотеки:
 
 - Python 3.11
 - pandas, numpy, scikit-learn
@@ -58,12 +58,12 @@ jupyter notebook notebooks/insurance_cross_sell_prediction.ipynb
 
 ## Структура проекта
 
-health-insurance-cross-sell/
-├── data/ # Данные (или ссылки на них)
-├── notebooks/ # Jupyter ноутбуки
-│ └── insurance_cross_sell_prediction.ipynb
-├── src/ 
-├── models/ 
-├── environment.yml # Conda environment
-├── requirements.txt # Pip requirements
+project_InsuranceCross/<br>
+├── data/ # Данные (или ссылки на них)<br>
+├── notebooks/ # Jupyter ноутбуки<br>
+│ └── insurance_cross_sell_prediction.ipynb<br>
+├── src/<br>
+├── models/<br> 
+├── environment.yml # Conda environment<br>
+├── requirements.txt # Pip requirements<br>
 └── README.md
