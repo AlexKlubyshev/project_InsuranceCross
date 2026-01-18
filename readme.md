@@ -34,10 +34,13 @@ cd project_InsuranceCross
 
 ### 2. Создание окружения используя conda(рекомендуемый способ) 
 conda env create -f environment.yml
-conda activate ml_base
+conda activate insurance
 
 ### 3. Альтернативная установка (через pip): 
    pip install -r requirements.txt
+
+### 4. Проверка корректности установки пакетов
+tests/test_import.py
 
 ### 4. Запуск проекта
 jupyter notebook notebooks/insurance_cross_sell_prediction.ipynb
@@ -63,6 +66,7 @@ project_InsuranceCross/<br>
 ├── notebooks/ # Jupyter ноутбуки<br>
 │ └── insurance_cross_sell_prediction.ipynb<br>
 ├── src/<br>
+│ └── test_import.py<br>
 ├── models/<br> 
 ├── environment.yml # Conda environment<br>
 ├── requirements.txt # Pip requirements<br>
