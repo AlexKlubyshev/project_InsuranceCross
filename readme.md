@@ -66,6 +66,7 @@ project_InsuranceCross/<br>
 ├── notebooks/ # Jupyter ноутбуки<br>
 │ └── insurance_cross_sell_prediction.ipynb<br>
 ├── src/<br>
+├── tests/<br>
 │ └── test_import.py<br>
 ├── models/<br> 
 ├── environment.yml # Conda environment<br>
