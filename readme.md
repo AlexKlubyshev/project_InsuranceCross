@@ -42,7 +42,7 @@ conda activate insurance
 ### 4. Проверка корректности установки пакетов
 tests/test_import.py
 
-### 4. Запуск проекта
+### 5. Запуск проекта
 jupyter notebook notebooks/insurance_cross_sell_prediction.ipynb
 
 ## Зависимости
